@@ -2,7 +2,7 @@ require 'rails_helper'
  
 describe 'new post' do
  
-  ...
+  
  
   it "displays a new post form that redirects to the index page, which then contains the submitted post's title and description" do
     visit new_post_path
